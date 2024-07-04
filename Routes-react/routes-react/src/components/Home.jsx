@@ -1,5 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from "react";
+import './Home.css';
+
 const colors = ['red', 'cyan', 'yellow', 'grey', 'pink'];
 function Home() {
   const [details, setDetails] = useState([]);

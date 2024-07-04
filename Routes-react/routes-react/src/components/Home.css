@@ -1,0 +1,34 @@
+/*Home*/
+.container {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .university-cards {
+    display: flex; 
+    flex-wrap: wrap;
+  }
+  
+  .university-card {
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 10px;
+    padding: 15px;
+    width: 300px; 
+    min-width: 250px; 
+  }
+  
+  .university-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .university-card p {
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 15px;
+  }
+  
